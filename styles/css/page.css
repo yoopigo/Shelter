@@ -1,0 +1,14 @@
+.page__body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box; }
+
+.page__body--pets {
+  grid-template-rows: auto 1fr auto; }
+
+.main--pets {
+  background-color: #f6f6f6; }

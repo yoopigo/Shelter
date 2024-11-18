@@ -1,0 +1,143 @@
+@import '../../common/variables.scss';
+
+.donation {
+  background-color: $color-light-l;
+}
+
+.donation__wrapper {
+  padding: 80px 183px 100px 183px;
+
+  @media (max-width: 1000px) {
+    padding: 80px 194px 95px 194px;
+  }
+  @media (max-width: 750px) {
+    padding: 42px 23px 40px 23px;
+  }
+}
+
+.donation__content--wrapper {
+  display: flex;
+  gap: 30px;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+  }
+
+  @media (max-width: 500px) {
+    gap: 45px;
+  }
+}
+
+.donation__img {
+  width: 505px;
+  height: auto;
+  object-fit: contain;
+
+  @media (max-width: 1000px) {
+    order: 2;
+  }
+
+  @media (max-width: 500px) {
+    width: 80vw;
+  }
+}
+
+.donation-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  @media (max-width: 1000px) {
+    order: 1;
+  }
+
+  @media (max-width: 500px) {
+    align-items: center;
+    align-items: flex-start;
+  }
+}
+
+.donation-content-title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: $color-dark-l;
+
+  @media (max-width: 500px) {
+    font-size: 25px;
+    text-align: center;
+    align-self: center;
+  }
+}
+
+.donation-content-phone-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 15px;
+  margin-right: 28px;
+  border-radius: 9px;
+  background-color: $color-primary;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+
+  @media (max-width: 500px) {
+    margin: 0;
+    padding: 7px 15px;
+  }
+}
+.donation-content-phone-img {
+  width: 30px;
+  height: 30px;
+}
+
+.donation-content-phone-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: $color-dark-l;
+
+  @media (max-width: 500px) {
+    font-size: 15px;
+    line-height: 110%;
+    text-wrap: nowrap;
+  }
+}
+
+.donation-content-info {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: $color-dark-l;
+
+  @media (max-width: 500px) {
+    line-height: 160%;
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+  }
+}
+
+.donation-content-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: $color-dark-m;
+  font-style: italic;
+
+  @media (max-width: 500px) {
+    text-align: justify;
+  }
+}

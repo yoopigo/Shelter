@@ -1,0 +1,113 @@
+@import '../../common/variables';
+
+.startscreen {
+  background: radial-gradient(circle, rgb(91, 72, 58), rgb(38, 36, 37)), url(../../assets/img/noise_transparent.png);
+  background-blend-mode: multiply;
+}
+
+.startscreen__wrapper {
+  background: url(../../assets/img/puppy.png) no-repeat;
+  background-position: calc(100% - 40px) bottom;
+
+  @media (max-width: 1000px) {
+    background-position: calc(100% - 30px) bottom;
+    background-size: 570px 590px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  @media (max-width: 650px) {
+    background-position: calc(0% - 0px) bottom;
+    background-size: 570px 590px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  @media (max-width: 500px) {
+    background-position: calc(100% - 10px) bottom;
+    background-size: 260px 270px;
+  }
+}
+
+.startscreen__make {
+  display: flex;
+  gap: 42px;
+  flex-direction: column;
+  padding-top: 343px;
+  padding-bottom: 243px;
+  width: 39%;
+
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-left: 145px;
+    width: 100%;
+    padding-bottom: 693px;
+  }
+
+  @media (max-width: 650px) {
+    width: 80%;
+    padding-bottom: 693px;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  @media (max-width: 550px) {
+    width: 67%;
+    padding-bottom: 693px;
+    padding-left: 0;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    padding-bottom: 693px;
+    padding-left: 0;
+    gap: 42px;
+    padding-bottom: 375px;
+  }
+}
+
+.startscreen__make-title {
+  font-size: 44px;
+  color: $color-light-xl;
+  font-weight: 400;
+  line-height: 130%;
+
+  @media (max-width: 500px) {
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+}
+
+.startscreen__make-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  color: $color-dark-s;
+  font-family: Arial, Helvetica, sans-serif;
+
+  @media (max-width: 500px) {
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+  }
+}
+
+.startscreen__btn {
+  @media (max-width: 1000px) {
+    margin-left: 125px;
+
+    @media (max-width: 500px) {
+      margin: 0;
+      align-self: center;
+    }
+  }
+}
+
+.startscreen__make-text--br {
+  @media (max-width: 500px) {
+    display: none;
+  }
+}

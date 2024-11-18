@@ -1,0 +1,18 @@
+@import 'common/variables.scss';
+@import 'common/fonts';
+@import 'common/global';
+
+@import 'blocks/genaral/page.scss';
+@import 'blocks/genaral/wrapper.scss';
+@import 'blocks/genaral/btn';
+@import 'blocks/genaral/header.scss';
+@import 'blocks/genaral/footer.scss';
+
+@import 'blocks/main/startscreen.scss';
+@import 'blocks/main/about.scss';
+@import 'blocks/main/pets.scss';
+@import 'blocks/main/help.scss';
+@import 'blocks/main/donation.scss';
+
+@import 'blocks/pets/catalog.scss';
+@import 'blocks/genaral/modal.scss';

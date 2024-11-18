@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+    <link rel="stylesheet" href="../../styles/css/modern-normalize.css" />
+    <link rel="stylesheet" href="../../styles/css/style.css" />
+    <title>Shelter</title>
+  </head>
+  <body class="page__body page__body--pets">
+    <div class="overlay"></div>
+    <header class="header header--pets">
+      <div class="wrapper header__wrapper header__wrapper--pets">
+        <a class="header__logo" href="../main/index.html">
+          <h1 class="header__logo-title header__logo-title--pets">Cozy House</h1>
+          <span class="header__logo-text header__logo-text--pets">Shelter for pets in Boston</span>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list header__nav-list--pets">
+            <li class="header__nav-item header__nav-item--pets">
+              <a href="../main/index.html" class="header__nav-link">About the shelter</a>
+            </li>
+            <li class="header__nav-item header__nav-item--pets"><a href="" class="header__nav-link header__nav-link--active">Our pets</a></li>
+            <li class="header__nav-item header__nav-item--pets"><a href="../main/index.html#help" class="header__nav-link">Help the shelter</a></li>
+            <li class="header__nav-item header__nav-item--pets"><a href="#contacts" class="header__nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header__burger header__burger--catalog">
+          <span class="header__burger-line header__burger-line--catalog header__burger-line--one"></span>
+          <span class="header__burger-line header__burger-line--catalog header__burger-line--two"></span>
+          <span class="header__burger-line header__burger-line--catalog header__burger-line--three"></span>
+        </div>
+      </div>
+    </header>
+    <main class="main main--pets">
+      <article class="catalog">
+        <div class="wrapper catalog__wrapper">
+          <h2 class="catalog__title">Our friends who<br />are looking for a house</h2>
+          <ul class="catalog__list"></ul>
+          <div class="catalog__pagination">
+            <div class="catalog__pagination-item catalog__pagination-item--double-arrow-left catalog__pagination-item--inactive">&lt;&lt;</div>
+            <div class="catalog__pagination-item catalog__pagination-item--arrow-left catalog__pagination-item--inactive">&lt;</div>
+            <div class="catalog__pagination-item catalog__pagination-item--number">1</div>
+            <div class="catalog__pagination-item catalog__pagination-item--arrow-right">&gt;</div>
+            <div class="catalog__pagination-item catalog__pagination-item--double-arrow-right">&gt;&gt;</div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="wrapper footer__wrapper">
+        <h3 class="footer__title footer__contacts--title">For questions and suggestions</h3>
+        <a href="mailto:email@shelter.com" class="footer__info-block-container footer__contacts--email">
+          <img src="../../assets/img/icon-email.svg" alt="icon" class="footer__info-block-img" />
+          <span class="footer__info-block-text footer__info-block-text--link">email@shelter.com</span>
+        </a>
+        <a href="tel:+136745677554" class="footer__info-block-container footer__contacts--phone">
+          <img src="../../assets/img/icon-phone.svg" alt="icon" class="footer__info-block-img" />
+          <span class="footer__info-block-text footer__info-block-text--link">+13 674 567 75 54</span>
+        </a>
+        <h3 class="footer__title ooter__address-title">We are waiting for your visit</h3>
+        <a href="https://maps.app.goo.gl/vcsJFuKRAdpzSE7j9" target="_blank" class="footer__info-block-container footer__address-text-one">
+          <img src="../../assets/img/icon-marker.png" alt="icon" class="footer__info-block-img" />
+          <span class="footer__info-block-text">1 Central Street, Boston (entrance from the store)</span>
+        </a>
+        <a href="https://maps.app.goo.gl/Wkw8dRtF1HdSQaSt5" target="_blank" class="footer__info-block-container footer__address-text-two">
+          <img src="../../assets/img/icon-marker.png" alt="icon" class="footer__info-block-img" />
+          <span class="footer__info-block-text">18 South Park, London </span>
+        </a>
+        <img src="../../assets/img/footer-puppy.png" alt="icon" class="footer__img" />
+      </div>
+    </footer>
+    <div class="modal">
+      <div class="modal__img-container">
+        <img src="../../assets/img/pets-jennifer.png" alt="" class="modal__img" />
+      </div>
+      <div class="modal__info">
+        <h2 class="modal__name">Jennifer</h2>
+        <div class="modal__type-container"><span class="modal__type">Dog</span><span class="modal__breed"> - Labrador</span></div>
+        <p class="modal__description">
+          Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go
+          outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.
+        </p>
+        <ul class="modal__info-list">
+          <li class="modal__info-item modal__info-item--age">
+            <span class="modal__info-item-title">Age: </span><span class="modal__info-item-text">2 months</span>
+          </li>
+          <li class="modal__info-item modal__info-item--inoculations">
+            <span class="modal__info-item-title">Inoculations: </span><span class="modal__info-item-text">none</span>
+          </li>
+          <li class="modal__info-item modal__info-item--diseases">
+            <span class="modal__info-item-title">Diseases: </span><span class="modal__info-item-text">none</span>
+          </li>
+          <li class="modal__info-item modal__info-item--parasites">
+            <span class="modal__info-item-title">Parasites: </span><span class="modal__info-item-text">none</span>
+          </li>
+        </ul>
+      </div>
+      <div class="modal__close">
+        <svg class="modal__close-cross" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+            fill="#292929"
+          />
+        </svg>
+      </div>
+    </div>
+    <script src="../../scripts/pets/script.js"></script>
+  </body>
+</html>

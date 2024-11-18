@@ -1,0 +1,117 @@
+.donation {
+  background-color: #f6f6f6; }
+
+.donation__wrapper {
+  padding: 80px 183px 100px 183px; }
+  @media (max-width: 1000px) {
+    .donation__wrapper {
+      padding: 80px 194px 95px 194px; } }
+  @media (max-width: 750px) {
+    .donation__wrapper {
+      padding: 42px 23px 40px 23px; } }
+
+.donation__content--wrapper {
+  display: flex;
+  gap: 30px; }
+  @media (max-width: 1000px) {
+    .donation__content--wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 66px; } }
+  @media (max-width: 500px) {
+    .donation__content--wrapper {
+      gap: 45px; } }
+
+.donation__img {
+  width: 505px;
+  height: auto;
+  object-fit: contain; }
+  @media (max-width: 1000px) {
+    .donation__img {
+      order: 2; } }
+  @media (max-width: 500px) {
+    .donation__img {
+      width: 80vw; } }
+
+.donation-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column; }
+  @media (max-width: 1000px) {
+    .donation-content {
+      order: 1; } }
+  @media (max-width: 500px) {
+    .donation-content {
+      align-items: center;
+      align-items: flex-start; } }
+
+.donation-content-title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454; }
+  @media (max-width: 500px) {
+    .donation-content-title {
+      font-size: 25px;
+      text-align: center;
+      align-self: center; } }
+
+.donation-content-phone-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 15px;
+  margin-right: 28px;
+  border-radius: 9px;
+  background-color: #f1cdb3;
+  cursor: pointer;
+  transition: all 0.4s ease-in; }
+  .donation-content-phone-container:hover {
+    background-color: #fddcc4; }
+  @media (max-width: 500px) {
+    .donation-content-phone-container {
+      margin: 0;
+      padding: 7px 15px; } }
+
+.donation-content-phone-img {
+  width: 30px;
+  height: 30px; }
+
+.donation-content-phone-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454; }
+  @media (max-width: 500px) {
+    .donation-content-phone-text {
+      font-size: 15px;
+      line-height: 110%;
+      text-wrap: nowrap; } }
+
+.donation-content-info {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454; }
+  @media (max-width: 500px) {
+    .donation-content-info {
+      line-height: 160%;
+      text-align: center;
+      text-wrap: nowrap;
+      font-size: 15px;
+      letter-spacing: 0.15px; } }
+
+.donation-content-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #b2b2b2;
+  font-style: italic; }
+  @media (max-width: 500px) {
+    .donation-content-text {
+      text-align: justify; } }
